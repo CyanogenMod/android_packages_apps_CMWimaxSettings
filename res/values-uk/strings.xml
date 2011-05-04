@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Налаштування WiMAX</string>
+    <string name="wimax_quick_toggle_title">WiMAX</string>
+    <string name="wimax_quick_toggle_summary">Увімкнути WiMAX</string>
+    <string name="wimax_starting">Увімкнення\u2026</string>
+    <string name="wimax_stopping">Вимкнення\u2026</string>
+    <string name="wimax_error">Помилка</string>
+    <string name="error_wimax_starting">Не вдається запустити WiMAX</string>
+    <string name="error_wimax_stopping">Не вдається зупинити WiMAX</string>
+    <string name="wimax_settings_category">Налаштування WiMAX</string>
+    <string name="wimax">WiMAX</string>
+    <string name="scan_wimax">Пошук</string>
+    <string name="wimax_menu_advanced">Розширені налаштування</string>
+    <string name="wimax_networks">Мережі WiMAX</string>
+    <string name="scan_for_wimax">Пошук WiMAX</string>
+    <string name="wimax_scan_networks">Пошук мереж WiMAX</string>
+    <string name="error_wimax_scanning">Не вдається виконати пошук мереж</string>
+    <string name="wimax_auto_connect">Автоматичне підключення</string>
+    <string name="wimax_auto_connect_summary">Автоматичне підключення до мережі, яка востаннє використовувалася, якщо вона доступна</string>
+    <string name="wimax_context_menu_connect">Підключення до мережі</string>
+    <string name="wimax_context_menu_disconnect">Відключення від мережі</string>
+    <string name="error_wimax_connecting">Не вдається підключитися до мережі</string>
+    <string name="wimax_signal_3">Відмінний</string>
+    <string name="wimax_signal_2">Добрий</string>
+    <string name="wimax_signal_1">Достатній</string>
+    <string name="wimax_signal_0">Слабкий</string>
+    <string name="wimax_advanced_titlebar">Розширені налаштування</string>
+    <string name="wimax_advanced_mac_address_title">MAC-адреса</string>
+    <string name="wimax_advanced_hw_version_title">Версія обладнання</string>
+    <string name="wimax_advanced_sw_version_title">Версія прошивки</string>
+    <string name="wimax_advanced_signal_strength_rssi_title">Рівень сигналу (RSSI)</string>
+    <string name="wimax_advanced_signal_strength_simple_title">Рівень сигналу (простий)</string>
+    <!--<string name="wimax_advanced_signal_strength_db_title">Рівень сигналу (дБ)</string>  -->
+    <string name="wimax_ip_settings_titlebar">Налаштування IP</string>
+    <string name="wimax_ip_address">IP-адреса</string>
+    <string name="wimax_gateway">Шлюз</string>
+    <string name="wimax_status_scanning">Пошук\u2026</string>
+    <string name="wimax_status_connecting">Підключення\u2026</string>
+    <string name="wimax_status_connecting_to">Підключення до <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
+    <string name="wimax_status_connected">Підключено</string>
+    <string name="wimax_status_connected_to">Підключено до <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="wimax_status_disconnecting">Відключення\u2026</string>
+    <string name="wimax_status_disconnecting_from">Відключення від <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
+    <string name="wimax_status_disconnected">Відключено</string>
+    <string name="status_unavailable">Недоступно</string>
+</resources>
