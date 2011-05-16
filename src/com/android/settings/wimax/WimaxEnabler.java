@@ -38,6 +38,7 @@ import android.net.wimax.WimaxHelper;
 import android.os.SystemProperties;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Config;
 import android.util.Log;
@@ -154,9 +155,12 @@ public class WimaxEnabler implements Preference.OnPreferenceChangeListener {
                     + getHumanReadableWimaxStatus(wimaxStatus));
         }
 
+	boolean wimaxSavedState = Settings.Secure.getInt(mContext.getContentResolver(),
+            Settings.Secure.WIMAX_ON, 0) == 1;
+
         if (wimaxStatus == WIMAX_ENABLED_STATE_DISABLED
                 || wimaxStatus == WIMAX_ENABLED_STATE_ENABLED) {
-            boolean wimaxEnabled = (wimaxStatus == WIMAX_ENABLED_STATE_ENABLED);
+            boolean wimaxEnabled = (wimaxStatus == WIMAX_ENABLED_STATE_ENABLED && wimaxSavedState);
             mWimaxCheckBoxPref.setChecked(wimaxEnabled);
             mWimaxCheckBoxPref
                     .setSummary(wimaxStatus == WIMAX_ENABLED_STATE_DISABLED ? mOriginalSummary
@@ -165,10 +169,16 @@ public class WimaxEnabler implements Preference.OnPreferenceChangeListener {
             mWimaxCheckBoxPref.setEnabled(isEnabledByDependency());
 
             if (wimaxStatus == WIMAX_ENABLED_STATE_DISABLED) {
+		Settings.Secure.putInt(mContext.getContentResolver(),
+                    Settings.Secure.WIMAX_ON, 0);
                 // mWimaxController.disconnectFromDcs();
                 // ConnectivityManager cManager =
                 // (ConnectivityManager)this.mContext.getSystemService("connectivity");
                 // cManager.resetWimaxService();
+            }
+	    else if (wimaxStatus == WIMAX_ENABLED_STATE_ENABLED) {
+		Settings.Secure.putInt(mContext.getContentResolver(),
+                    Settings.Secure.WIMAX_ON, 1);
             }
 
         } else if (wimaxStatus == WIMAX_ENABLED_STATE_DISABLING
