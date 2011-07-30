@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">WiMAX-inställningar</string>
+
+    <string name="wimax_quick_toggle_title">WiMAX</string>
+    <string name="wimax_quick_toggle_summary">Slå på WiMAX</string>
+    <string name="wimax_starting">Slår på\u2026</string>
+    <string name="wimax_stopping">Slår av\u2026</string>
+    <string name="wimax_error">Fel</string>
+    <string name="error_wimax_starting">Kunde inte starta WiMAX</string>
+    <string name="error_wimax_stopping">Kunde inte stänga av WiMAX</string>
+
+    <string name="wimax_settings_category">WiMAX-inställningar</string>
+    <string name="wimax">WiMAX</string>
+    <string name="scan_wimax">Sök av</string>
+    <string name="wimax_menu_advanced">Avancerat</string>
+    <string name="wimax_networks">WiMAX-nätverk</string>
+    <string name="scan_for_wimax">Sök efter WiMAX</string>
+    <string name="wimax_scan_networks">Sök efter WiMAX-nätverk</string>
+    <string name="error_wimax_scanning">Kunde inte söka efter nätverk</string>
+
+    <string name="wimax_auto_connect">Automatisk anslutning</string>
+    <string name="wimax_auto_connect_summary">Anslut automatiskt till senast anslutna nätverk, om tillgängligt</string>
+    <string name="wimax_context_menu_connect">Anslut till nätverk</string>
+    <string name="wimax_context_menu_disconnect">Koppla från nätverk</string>
+    <string name="error_wimax_connecting">Kunde inte ansluta till nätverket</string>
+
+    <string name="wimax_signal_3">Utmärkt</string>
+    <string name="wimax_signal_2">Bra</string>
+    <string name="wimax_signal_1">Medel</string>
+    <string name="wimax_signal_0">Dålig</string>
+
+    <string name="wimax_advanced_titlebar">Avancerat</string>
+    <string name="wimax_advanced_mac_address_title">MAC-adress</string>
+    <string name="wimax_advanced_hw_version_title">Hårdvaruversion</string>
+    <string name="wimax_advanced_sw_version_title">Firmware-version</string>
+    <string name="wimax_advanced_signal_strength_rssi_title">Signalstyrka (RSSI)</string>
+    <string name="wimax_advanced_signal_strength_simple_title">Signalstyrka (Enkel)</string>
+
+    <string name="wimax_ip_settings_titlebar">IP-inställningar</string>
+    <string name="wimax_ip_address">IP-adress</string>
+    <string name="wimax_gateway">Gateway</string>
+
+    <string name="wimax_status_scanning">Söker av\u2026</string>
+    <string name="wimax_status_connecting">Ansluter\u2026</string>
+    <string name="wimax_status_connecting_to">Ansluter till <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
+    <string name="wimax_status_connected">Ansluten</string>
+    <string name="wimax_status_connected_to">Ansluten till <xliff:g id="network_name">%1$s</xliff:g></string>
+    <string name="wimax_status_disconnecting">Kopplar från\u2026</string>
+    <string name="wimax_status_disconnecting_from">Kopplar från <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
+    <string name="wimax_status_disconnected">Frånkopplad</string>
+
+    <string name="status_unavailable">Ej tillgänglig</string>
+</resources>
