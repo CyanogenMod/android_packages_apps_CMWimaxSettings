@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Configurações WiMAX</string>
-    <string name="wimax_quick_toggle_title">WiMAX</string>
     <string name="wimax_quick_toggle_summary">Ligar WiMAX</string>
     <string name="wimax_starting">Ligando\u2026</string>
     <string name="wimax_stopping">Desligando\u2026</string>
@@ -10,37 +9,21 @@
     <string name="error_wimax_stopping">Não é possível parar WiMAX</string>
     <string name="wimax_settings_category">Configurações WiMAX</string>
     <string name="wimax">WiMAX</string>
-    <string name="scan_wimax">Buscar</string>
-    <string name="wimax_menu_advanced">Avançado</string>
-    <string name="wimax_networks">Redes WiMAX</string>
     <string name="scan_for_wimax">Buscar por WiMAX</string>
-    <string name="wimax_scan_networks">Buscar Redes WiMAX</string>
-    <string name="error_wimax_scanning">Não é possível buscar redes</string>
-    <string name="wimax_auto_connect">Auto Conectar</string>
-    <string name="wimax_auto_connect_summary">Auto conectar a última rede conectada, se disponível</string>
-    <string name="wimax_context_menu_connect">Conectar a rede</string>
-    <string name="wimax_context_menu_disconnect">Disconectar da rede</string>
-    <string name="error_wimax_connecting">Não é possível conectar à rede</string>
     <string name="wimax_signal_3">Excelente</string>
     <string name="wimax_signal_2">Bom</string>
     <string name="wimax_signal_1">Razoável</string>
     <string name="wimax_signal_0">Ruim</string>
     <string name="wimax_advanced_titlebar">Avançado</string>
     <string name="wimax_advanced_mac_address_title">Endereço MAC</string>
-    <string name="wimax_advanced_hw_version_title">Versão de Hardware</string>
     <string name="wimax_advanced_sw_version_title">Versão de Firmware</string>
-    <string name="wimax_advanced_signal_strength_rssi_title">Intensidade do Sinal (RSSI)</string>
     <string name="wimax_advanced_signal_strength_simple_title">Intensidade do Sinal (Simples)</string>
-    <string name="wimax_ip_settings_titlebar">Configurações IP</string>
     <string name="wimax_ip_address">Endereço IP</string>
     <string name="wimax_gateway">Gateway</string>
     <string name="wimax_status_scanning">Buscando\u2026</string>
     <string name="wimax_status_connecting">Conectando\u2026</string>
-    <string name="wimax_status_connecting_to">Conectando a %1$s\u2026</string>
     <string name="wimax_status_connected">Conectado</string>
-    <string name="wimax_status_connected_to">Conectado a %1$s</string>
     <string name="wimax_status_disconnecting">Disconectando\u2026</string>
-    <string name="wimax_status_disconnecting_from">Disconectando da %1$s\u2026</string>
     <string name="wimax_status_disconnected">Disconectado</string>
     <string name="status_unavailable">Indisponível</string>
 </resources>

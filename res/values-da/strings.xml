@@ -19,8 +19,6 @@
     <string name="app_name">WiMAX Indstillinger</string>
 
     <!-- Wimax settings -->
-    <!-- Used in the 1st-level settings screen to turn on Wimax -->
-    <string name="wimax_quick_toggle_title">WiMAX</string>
     <!-- Used in the 1st-level settings screen as the turn-on summary -->
     <string name="wimax_quick_toggle_summary">Aktiver WiMAX</string>
     <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax on -->
@@ -38,28 +36,8 @@
     <string name="wimax_settings_category">WiMAX indstillinger</string>
     <!-- Used in the 2nd-level settings screen to turn on Wimax -->
     <string name="wimax">WiMAX</string>
-    <!--Wimax settings screen menu option -->
-    <string name="scan_wimax">Scan</string>
-    <!--Wimax settings screen menu option -->
-    <string name="wimax_menu_advanced">Avanceret</string>
-    <!-- Header for the list of wimax networks-->
-    <string name="wimax_networks">WiMAX netværk</string>
     <string name="scan_for_wimax">Scan for WiMAX</string>
-    <!-- Action message to scan for wimax network -->
-    <string name="wimax_scan_networks">Scan WiMAX netværk</string>
-    <!-- Error message when Wimax can't scan for networks -->
-    <string name="error_wimax_scanning">Kunne ikke scanne netværk</string>
 
-    <!-- Checkbox title for option to auto connect to last connected wimax network -->
-    <string name="wimax_auto_connect">Auto Forbind</string>
-    <!-- Checkbox summary for option to auto connect to last connected wimax network -->
-    <string name="wimax_auto_connect_summary">Forbind automatisk til sidst forbundne netværk, hvis tilgængeligt</string>
-    <!--Wimax settings screen, network context menu item -->
-    <string name="wimax_context_menu_connect">Forbind til netværk</string>
-    <!--Wimax settings screen, network context menu item -->
-    <string name="wimax_context_menu_disconnect">Afbryd forbindelse til netvækr</string>
-    <!-- Error message when Wimax can't connect -->
-    <string name="error_wimax_connecting">Kunne ikke forbinde til netværk</string>
 
     <!-- Verbose wimax signal strength.  This is the best out of 4 levels. -->
     <string name="wimax_signal_3">Fremragende</string>
@@ -74,18 +52,10 @@
     <string name="wimax_advanced_titlebar">Avanceret</string>
     <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's MAC address. -->
     <string name="wimax_advanced_mac_address_title">MAC addresse</string>
-    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Hardware Version. -->
-    <string name="wimax_advanced_hw_version_title">Hardware Version</string>
     <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Firmware Version. -->
     <string name="wimax_advanced_sw_version_title">Firmware Version</string>
-    <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's rssi. -->
-    <string name="wimax_advanced_signal_strength_rssi_title">Signal Styrke (RSSI)</string>
     <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's simple signal strength. -->
     <string name="wimax_advanced_signal_strength_simple_title">Signal Styrke (Simple)</string>
-    <!-- Add string title for future signal dB string -->
-    <!--<string name="wimax_advanced_signal_strength_db_title">Signal Strength (dB)</string>  -->
-    <!-- Title of the screen to adjust IP settings -->
-    <string name="wimax_ip_settings_titlebar">IP indstillinger</string>
     <!-- Label for the IP address -->
     <string name="wimax_ip_address">IP addresse</string>
     <!-- Label for the gateway of the network -->
@@ -95,16 +65,10 @@
     <string name="wimax_status_scanning">Scanner\u2026</string>
     <!-- Status message of Wimax when it is connecting (but the network is not known right now) -->
     <string name="wimax_status_connecting">Forbinder\u2026</string>
-    <!-- Status message of wimax when it is connecting to a particular network -->
-    <string name="wimax_status_connecting_to">Forbinder til <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
     <!--Wimax settings screen, summary text for network when connected -->
     <string name="wimax_status_connected">Forbundet</string>
-    <!-- Status message of wimax when it is connected to a network -->
-    <string name="wimax_status_connected_to">Forbundet til <xliff:g id="network_name">%1$s</xliff:g></string>
     <!-- Status message of wimax when it is disconnecting (but the network is not known right now) -->
     <string name="wimax_status_disconnecting">Afslutter forbindelse\u2026</string>
-    <!-- Status message of wimax when it is disconnecting from a network -->
-    <string name="wimax_status_disconnecting_from">Afsluttede forbindelse til <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
     <!-- Status message of wimax when it is disconnected -->
     <string name="wimax_status_disconnected">Ikke forbundet</string>
 
