@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Nastavenia WiMAX</string>
+
+    <!-- Wimax settings -->
+    <!-- Used in the 1st-level settings screen to turn on Wimax -->
+    <string name="wimax_quick_toggle_title">WiMAX</string>
+    <!-- Used in the 1st-level settings screen as the turn-on summary -->
+    <string name="wimax_quick_toggle_summary">Zapnúť WiMAX</string>
+    <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax on -->
+    <string name="wimax_starting">Zapínanie\u2026</string>
+    <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax off -->
+    <string name="wimax_stopping">Vypínanie\u2026</string>
+    <!-- Generic error message -->
+    <string name="wimax_error">Chyba</string>
+    <!-- Error message when Wimax can't start -->
+    <string name="error_wimax_starting">Nemožno naštartovať WiMAX</string>
+    <!-- Error message when Wimax can't stop -->
+    <string name="error_wimax_stopping">Nemožno zastaviť WiMAX</string>
+
+    <!-- Title of the Wimax settings screen -->
+    <string name="wimax_settings_category">Nastavenia WiMAX</string>
+    <!-- Used in the 2nd-level settings screen to turn on Wimax -->
+    <string name="wimax">WiMAX</string>
+    <!--Wimax settings screen menu option -->
+    <string name="scan_wimax">Hľadať</string>
+    <!--Wimax settings screen menu option -->
+    <string name="wimax_menu_advanced">Rozšírené</string>
+    <!-- Header for the list of wimax networks-->
+    <string name="wimax_networks">Siete WiMAX</string>
+    <string name="scan_for_wimax">Hľadať WiMAX</string>
+    <!-- Action message to scan for wimax network -->
+    <string name="wimax_scan_networks">Hľadať siete WiMAX</string>
+    <!-- Error message when Wimax can't scan for networks -->
+    <string name="error_wimax_scanning">Nemožno hľadať siete</string>
+
+    <!-- Checkbox title for option to auto connect to last connected wimax network -->
+    <string name="wimax_auto_connect">Automatické Pripojenie</string>
+    <!-- Checkbox summary for option to auto connect to last connected wimax network -->
+    <string name="wimax_auto_connect_summary">Automatické pripojenie k poslednej sieti, ak je dostupná</string>
+    <!--Wimax settings screen, network context menu item -->
+    <string name="wimax_context_menu_connect">Pripojiť ku sieti</string>
+    <!--Wimax settings screen, network context menu item -->
+    <string name="wimax_context_menu_disconnect">Odpojiť od siete</string>
+    <!-- Error message when Wimax can't connect -->
+    <string name="error_wimax_connecting">Nemožno pripojiť ku sieti</string>
+
+    <!-- Verbose wimax signal strength.  This is the best out of 4 levels. -->
+    <string name="wimax_signal_3">Výborný</string>
+    <!-- Verbose wimax signal strength.  This is the 2nd best out of 4 levels. -->
+    <string name="wimax_signal_2">Dobrý</string>
+    <!-- Verbose wimax signal strength.  This is the 3rd best out of 4 levels. -->
+    <string name="wimax_signal_1">Dostačujúci</string>
+    <!-- Verbose wimax signal strength.  This is the worst out of 4 levels. -->
+    <string name="wimax_signal_0">Slabý</string>
+
+    <!-- Wimax settings screen, advanced, settings section.  This is a header shown above advanced wimax settings. -->
+    <string name="wimax_advanced_titlebar">Rozšírené</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's MAC address. -->
+    <string name="wimax_advanced_mac_address_title">MAC adresa</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Hardware Version. -->
+    <string name="wimax_advanced_hw_version_title">Verzia Hardware</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Firmware Version. -->
+    <string name="wimax_advanced_sw_version_title">Verzia Firmware</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's rssi. -->
+    <string name="wimax_advanced_signal_strength_rssi_title">Sila Signálu (RSSI)</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's simple signal strength. -->
+    <string name="wimax_advanced_signal_strength_simple_title">Sila Signálu (Jednoduché)</string>
+    <!-- Add string title for future signal dB string -->
+    <!--<string name="wimax_advanced_signal_strength_db_title">Signal Strength (dB)</string>  -->
+    <!-- Title of the screen to adjust IP settings -->
+    <string name="wimax_ip_settings_titlebar">Nastavenia IP</string>
+    <!-- Label for the IP address -->
+    <string name="wimax_ip_address">IP adresa</string>
+    <!-- Label for the gateway of the network -->
+    <string name="wimax_gateway">Brána</string>
+
+    <!-- Status message of Wimax when it is scanning -->
+    <string name="wimax_status_scanning">Hľadanie\u2026</string>
+    <!-- Status message of Wimax when it is connecting (but the network is not known right now) -->
+    <string name="wimax_status_connecting">Pripájanie\u2026</string>
+    <!-- Status message of wimax when it is connecting to a particular network -->
+    <string name="wimax_status_connecting_to">Pripájanie ku  <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
+    <!--Wimax settings screen, summary text for network when connected -->
+    <string name="wimax_status_connected">Pripojené</string>
+    <!-- Status message of wimax when it is connected to a network -->
+    <string name="wimax_status_connected_to">Pripojené ku <xliff:g id="network_name">%1$s</xliff:g></string>
+    <!-- Status message of wimax when it is disconnecting (but the network is not known right now) -->
+    <string name="wimax_status_disconnecting">Odpájanie\u2026</string>
+    <!-- Status message of wimax when it is disconnecting from a network -->
+    <string name="wimax_status_disconnecting_from">odpojené od  <xliff:g id="network_name">%1$s</xliff:g>\u2026</string>
+    <!-- Status message of wimax when it is disconnected -->
+    <string name="wimax_status_disconnected">Odpojené</string>
+
+    <!-- About phone, status item value if the actual value is not available. -->
+    <string name="status_unavailable">Nedostupné</string>
+
+</resources>
