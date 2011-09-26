@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The CyanogenMod Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="app_name">WiMAX nastavení</string>
+
+  <string name="wimax_quick_toggle_summary">Zapnout WiMAX</string>
+  <string name="wimax_starting">Zapínání\u2026</string>
+  <string name="wimax_stopping">Vypínání\u2026</string>
+  <string name="wimax_error">Error</string>
+  <string name="error_wimax_starting">Nelze zapnout WiMAX</string>
+  <string name="error_wimax_stopping">Nelze vypnout WiMAX</string>
+
+  <string name="wimax_settings_category">Nastavení WiMAX</string>
+  <skip />
+  <string name="scan_for_wimax">Vyhledat WiMAX</string>
+
+  <string name="wimax_signal_3">Vynikající</string>
+  <string name="wimax_signal_2">Dobrá</string>
+  <string name="wimax_signal_1">Dostačující</string>
+  <string name="wimax_signal_0">Slabá</string>
+
+  <string name="wimax_advanced_titlebar">Rozšířené</string>
+  <string name="wimax_advanced_mac_address_title">Adresa MAC</string>
+  <string name="wimax_advanced_sw_version_title">Verze firmware</string>
+  <string name="wimax_advanced_signal_strength_simple_title">Síla signálu</string>
+  <string name="wimax_ip_address">IP adresa</string>
+  <skip />
+
+  <string name="wimax_status_scanning">Vyhledávání\u2026</string>
+  <string name="wimax_status_connecting">Připojování\u2026</string>
+  <string name="wimax_status_connected">Připojeno</string>
+  <string name="wimax_status_disconnecting">Odpojování\u2026</string>
+  <string name="wimax_status_disconnected">Odpojeno</string>
+
+  <string name="status_unavailable">Nedostupné</string>
+
+</resources>
