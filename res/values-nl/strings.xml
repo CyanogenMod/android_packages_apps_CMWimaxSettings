@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">WiMAX-instellingen</string>
+
+    <string name="wimax_quick_toggle_summary">Schakel WiMAX in</string>
+    <string name="wimax_starting">Aanzetten\u2026</string>
+    <string name="wimax_stopping">Uitzetten\u2026</string>
+    <string name="wimax_error">Fout</string>
+    <string name="error_wimax_starting">Kan WiMAX niet starten</string>
+    <string name="error_wimax_stopping">Kan WiMAX niet stoppen</string>
+
+    <string name="wimax_settings_category">WiMAX-instellingen</string>
+    <string name="wimax">WiMAX</string>
+    <string name="scan_for_wimax">Zoek naar WiMAX</string>
+
+    <string name="wimax_signal_3">Uitstekend</string>
+    <string name="wimax_signal_2">Goed</string>
+    <string name="wimax_signal_1">Redelijk</string>
+    <string name="wimax_signal_0">Slecht</string>
+
+    <string name="wimax_advanced_titlebar">Geavanceerd</string>
+    <string name="wimax_advanced_mac_address_title">MAC-adres</string>
+    <string name="wimax_advanced_sw_version_title">Firmwareversie</string>
+    <string name="wimax_advanced_signal_strength_simple_title">Signaalsterkte (simpel)</string>
+    <string name="wimax_ip_address">IP-adres</string>
+    <string name="wimax_gateway">Gateway</string>
+
+    <string name="wimax_status_scanning">Zoeken\u2026</string>
+    <string name="wimax_status_connecting">Verbinden\u2026</string>
+    <string name="wimax_status_connected">Verbonden</string>
+    <string name="wimax_status_disconnecting">Verbreken\u2026</string>
+    <string name="wimax_status_disconnected">Verbroken</string>
+
+    <string name="status_unavailable">Niet beschikbaar</string>
+
+</resources>
