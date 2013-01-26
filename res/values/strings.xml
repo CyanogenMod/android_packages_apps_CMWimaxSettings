@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2011 The CyanogenMod Project
+<!-- Copyright (C) 2011-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,9 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">WiMAX Settings</string>
 
     <!-- Wimax settings -->
@@ -52,9 +51,9 @@
     <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's MAC address. -->
     <string name="wimax_advanced_mac_address_title">MAC address</string>
     <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Firmware Version. -->
-    <string name="wimax_advanced_sw_version_title">Firmware Version</string>
+    <string name="wimax_advanced_sw_version_title">Firmware version</string>
     <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's simple signal strength. -->
-    <string name="wimax_advanced_signal_strength_simple_title">Signal Strength (Simple)</string>
+    <string name="wimax_advanced_signal_strength_simple_title">Signal strength</string>
     <!-- Label for the IP address -->
     <string name="wimax_ip_address">IP address</string>
     <!-- Label for the gateway of the network -->
@@ -73,5 +72,4 @@
 
     <!-- About phone, status item value if the actual value is not available. -->
     <string name="status_unavailable">Unavailable</string>
-
 </resources>

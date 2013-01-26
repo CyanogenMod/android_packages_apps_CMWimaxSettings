@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2011 The CyanogenMod Project
+<!-- Copyright (C) 2011-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,41 +13,63 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">WiMAX-inställningar</string>
 
+    <!-- Wimax settings -->
+    <!-- Used in the 1st-level settings screen as the turn-on summary -->
     <string name="wimax_quick_toggle_summary">Slå på WiMAX</string>
+    <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax on -->
     <string name="wimax_starting">Slår på\u2026</string>
+    <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax off -->
     <string name="wimax_stopping">Slår av\u2026</string>
+    <!-- Generic error message -->
     <string name="wimax_error">Fel</string>
+    <!-- Error message when Wimax can't start -->
     <string name="error_wimax_starting">Kunde inte starta WiMAX</string>
+    <!-- Error message when Wimax can't stop -->
     <string name="error_wimax_stopping">Kunde inte stänga av WiMAX</string>
 
+    <!-- Title of the Wimax settings screen -->
     <string name="wimax_settings_category">WiMAX-inställningar</string>
+    <!-- Used in the 2nd-level settings screen to turn on Wimax -->
     <string name="wimax">WiMAX</string>
     <string name="scan_for_wimax">Sök efter WiMAX</string>
 
-
+    <!-- Verbose wimax signal strength.  This is the best out of 4 levels. -->
     <string name="wimax_signal_3">Utmärkt</string>
+    <!-- Verbose wimax signal strength.  This is the 2nd best out of 4 levels. -->
     <string name="wimax_signal_2">Bra</string>
+    <!-- Verbose wimax signal strength.  This is the 3rd best out of 4 levels. -->
     <string name="wimax_signal_1">Medel</string>
+    <!-- Verbose wimax signal strength.  This is the worst out of 4 levels. -->
     <string name="wimax_signal_0">Dålig</string>
 
+    <!-- Wimax settings screen, advanced, settings section.  This is a header shown above advanced wimax settings. -->
     <string name="wimax_advanced_titlebar">Avancerat</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's MAC address. -->
     <string name="wimax_advanced_mac_address_title">MAC-adress</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Firmware Version. -->
     <string name="wimax_advanced_sw_version_title">Firmware-version</string>
-    <string name="wimax_advanced_signal_strength_simple_title">Signalstyrka (Enkel)</string>
-
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's simple signal strength. -->
+    <string name="wimax_advanced_signal_strength_simple_title">Signalstyrka</string>
+    <!-- Label for the IP address -->
     <string name="wimax_ip_address">IP-adress</string>
+    <!-- Label for the gateway of the network -->
     <string name="wimax_gateway">Gateway</string>
 
+    <!-- Status message of Wimax when it is scanning -->
     <string name="wimax_status_scanning">Söker av\u2026</string>
+    <!-- Status message of Wimax when it is connecting (but the network is not known right now) -->
     <string name="wimax_status_connecting">Ansluter\u2026</string>
+    <!--Wimax settings screen, summary text for network when connected -->
     <string name="wimax_status_connected">Ansluten</string>
+    <!-- Status message of wimax when it is disconnecting (but the network is not known right now) -->
     <string name="wimax_status_disconnecting">Kopplar från\u2026</string>
+    <!-- Status message of wimax when it is disconnected -->
     <string name="wimax_status_disconnected">Frånkopplad</string>
 
+    <!-- About phone, status item value if the actual value is not available. -->
     <string name="status_unavailable">Ej tillgänglig</string>
 </resources>

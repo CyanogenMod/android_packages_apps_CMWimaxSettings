@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
+<!-- Copyright (C) 2011-2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,7 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory
@@ -31,7 +30,7 @@
                 android:title="@string/scan_for_wimax"
                 android:persistent="false" />
 
-	<!-- Imported from the WiMAX advanced settings -->
+    <!-- Imported from the WiMAX advanced settings -->
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -40,10 +39,6 @@
         <Preference android:key="signal_strength_simple"
                 style="?android:attr/preferenceInformationStyle"
                 android:title="@string/wimax_advanced_signal_strength_simple_title"/>
-
-        <!-- <Preference android:key="signal_strength_db"
-                style="?android:attr/preferenceInformationStyle"
-                android:title="@string/wimax_advanced_signal_strength_db_title"/> -->
 
         <Preference android:key="ip_address"
                 style="?android:attr/preferenceInformationStyle"
