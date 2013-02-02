@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2011-2012 The CyanogenMod Project
+<!-- Copyright (C) 2011-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,38 +13,63 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">WiMAX-instellingen</string>
 
+    <!-- Wimax settings -->
+    <!-- Used in the 1st-level settings screen as the turn-on summary -->
     <string name="wimax_quick_toggle_summary">WiMAX inschakelen</string>
+    <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax on -->
     <string name="wimax_starting">Inschakelen\u2026</string>
+    <!--Wireless controls setting screen, Wimax check box summary text when turning Wimax off -->
     <string name="wimax_stopping">Uitschakelen\u2026</string>
+    <!-- Generic error message -->
     <string name="wimax_error">Fout</string>
+    <!-- Error message when Wimax can't start -->
     <string name="error_wimax_starting">Kan WiMAX niet inschakelen</string>
+    <!-- Error message when Wimax can't stop -->
     <string name="error_wimax_stopping">Kan WiMAX niet uitschakelen</string>
 
+    <!-- Title of the Wimax settings screen -->
     <string name="wimax_settings_category">WiMAX-instellingen</string>
+    <!-- Used in the 2nd-level settings screen to turn on Wimax -->
     <string name="wimax">WiMAX</string>
     <string name="scan_for_wimax">Naar WiMAX zoeken</string>
 
+    <!-- Verbose wimax signal strength.  This is the best out of 4 levels. -->
     <string name="wimax_signal_3">Uitstekend</string>
+    <!-- Verbose wimax signal strength.  This is the 2nd best out of 4 levels. -->
     <string name="wimax_signal_2">Goed</string>
+    <!-- Verbose wimax signal strength.  This is the 3rd best out of 4 levels. -->
     <string name="wimax_signal_1">Redelijk</string>
+    <!-- Verbose wimax signal strength.  This is the worst out of 4 levels. -->
     <string name="wimax_signal_0">Slecht</string>
 
+    <!-- Wimax settings screen, advanced, settings section.  This is a header shown above advanced wimax settings. -->
     <string name="wimax_advanced_titlebar">Geavanceerd</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's MAC address. -->
     <string name="wimax_advanced_mac_address_title">MAC-adres</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax device's Firmware Version. -->
     <string name="wimax_advanced_sw_version_title">Firmwareversie</string>
-    <string name="wimax_advanced_signal_strength_simple_title">Signaalsterkte (simpel)</string>
+    <!-- Wimax settings screen, advanced, title of the item to show the Wimax connection's simple signal strength. -->
+    <string name="wimax_advanced_signal_strength_simple_title">Signaalsterkte</string>
+    <!-- Label for the IP address -->
     <string name="wimax_ip_address">IP-adres</string>
+    <!-- Label for the gateway of the network -->
     <string name="wimax_gateway">Gateway</string>
 
+    <!-- Status message of Wimax when it is scanning -->
     <string name="wimax_status_scanning">Zoeken\u2026</string>
+    <!-- Status message of Wimax when it is connecting (but the network is not known right now) -->
     <string name="wimax_status_connecting">Verbinding maken\u2026</string>
+    <!--Wimax settings screen, summary text for network when connected -->
     <string name="wimax_status_connected">Verbonden</string>
+    <!-- Status message of wimax when it is disconnecting (but the network is not known right now) -->
     <string name="wimax_status_disconnecting">Verbinding verbreken\u2026</string>
+    <!-- Status message of wimax when it is disconnected -->
     <string name="wimax_status_disconnected">Verbroken</string>
 
+    <!-- About phone, status item value if the actual value is not available. -->
     <string name="status_unavailable">Niet beschikbaar</string>
-
 </resources>
